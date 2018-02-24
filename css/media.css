@@ -1,0 +1,157 @@
+
+/*sm device*/
+@media(max-width:567px){
+ .social_media{
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+        
+        display:block;
+    }
+
+}
+
+
+/*sm device*/
+@media(max-width:767px){
+    
+ /*slider start */
+    .logo{
+        float: none;
+        text-align: center;
+        
+    }
+    .logo span{
+       font-size: 12px;
+       
+        float: none;
+        margin: 0 ;
+       
+        
+    }
+    .logo img{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+       margin: 0 10%;
+        text-align: center;
+    }
+   
+  .s_img_text{
+   position: absolute;
+    color: white;
+   padding: 0 1%;
+    top: 0%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.s_img_text h2{
+   font-size: 12px;
+    font-weight: 400;
+    
+}
+
+    .item_po img{
+    
+    min-height: 150px;
+}
+
+.s_img_text p{
+   font-size: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.account_btn{
+    color: black;
+    font-size: 10px;
+    font-weight: 400;
+   margin-top: 0%;
+    padding: 5px;
+}  
+    
+ /*slider end */   
+   
+    .plot_image{
+        display: none;
+    }
+    
+    .sn_img_couser{
+    
+    margin: 10px 0;
+}
+    
+    
+    .most_traded-hol,.featured-hol{
+     margin: 0 auto;
+    width: 100%;
+    clear: both;
+    margin-top: 30px;
+}
+    
+    .feature_sn{
+         
+        margin-top: 20px;
+    }   
+    
+    .title h1{
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+    .book_image {
+        margin: 0 auto;
+       width: 40%; 
+    }
+    .book_content{
+       width: 80%;  
+        margin: 0 auto;
+    }
+    
+    .write_about{
+   
+    
+        width: 95%;
+        margin: 20px auto;;
+    
+}
+
+.writ_btn{
+    margin: 10px 0;
+   
+}
+    
+  .feature_add h2{
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}  
+    
+    .single_image_2 {
+        
+        width: 200%;
+    } 
+    .btn-foot{
+        font-size: 12px;
+    }
+	 .navbar-brand{
+   display:block;
+   }    
+}
+/*sm device*/
+@media(max-width:991px){
+ 
+}
+/*md device*/
+@media(min-width:992px) and (max-width:1199px){
+   
+}
+/*lg device*/
+@media(min-width:1200px){
+     
+}
