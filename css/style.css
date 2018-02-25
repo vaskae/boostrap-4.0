@@ -58,7 +58,7 @@
    
 }
 
-.menu_bar{background:#67C0AC; min-height:42px; padding-top:0; padding-bottom:0; overflow:hidden;}
+.menu_bar{background:#67C0AC; min-height:42px; padding-top:0; padding-bottom:0;}
 
 	.navbar-dark .navbar-nav .nav-link {
    color: black !important;
