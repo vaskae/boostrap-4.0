@@ -1,4 +1,5 @@
 
+
 .header-hol{
      padding: 20px 0;
      margin: 0 auto;
@@ -52,23 +53,24 @@
 }
 
 
+.active{
+   background-color:#EEEEEE;
+   
+}
 
+.menu_bar{background:#67C0AC; min-height:42px; padding-top:0; padding-bottom:0;}
 
-.menu_bar{background:#67C0AC;}
-.form-inline {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-	}
+	.navbar-dark .navbar-nav .nav-link {
+   color: black !important;
+	font-weight:400;
 	
+}
 
+.navbar-dark ul li a:hover {
+   color: red !important;
+	font-weight:400;
+	
+}
 .navbar-right{
 
 
@@ -80,10 +82,7 @@ position:absolute;
    display:none;
    } 
 
-.navbar-search{
-   float:left;
-   
-}
+
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: none;
@@ -274,7 +273,7 @@ float:left;
     font-size: 12px;
 }
 
- .b_arrow {
+ .b_arrow ul li a{
     color: #68BFAE;
     font-size: 50px;
 }
