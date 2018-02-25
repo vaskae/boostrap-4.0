@@ -25,9 +25,9 @@
 .social_media{
     margin-top: 30px;
    float: right;
-   
+  
    overflow:hidden;
-   width:150px;
+   width:100px;
    
     
 }
@@ -55,14 +55,25 @@
 
 
 .menu_bar{background:#67C0AC;}
-.active{
-    background:white;}
-	
+.form-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+	}
 	
 
 .navbar-right{
-float:right;
-border:1px solid;
+
+
+right:1%;
+position:absolute;
 
 }
 .navbar-brand{
@@ -71,7 +82,12 @@ border:1px solid;
 
 .navbar-search{
    float:left;
-   border:1px solid;
+   
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+   
 }
 .s_img_text{
    position: absolute;
@@ -246,6 +262,12 @@ border-radius:50%;
     
 }
 
+.s_margin{
+
+
+float:left;
+
+}
 .all_links ul li a{
     
    color: #68BFAE;
