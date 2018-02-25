@@ -37,11 +37,16 @@
         text-align: center;
     }
    
+   
+   
+   
+   
+   
   .s_img_text{
    position: absolute;
     color: white;
    padding: 0 1%;
-    top: 0%;
+    top: 30%;
     left: 0;
     right: 0;
     margin: auto;
@@ -141,10 +146,23 @@
     }
 	 .navbar-brand{
    display:block;
-   }    
+   } 
+   .s_margin{
+
+border:1px solid white;
+float:left;
+
+}   
 }
 /*sm device*/
 @media(max-width:991px){
+.navbar-right{
+
+
+top: 0;
+
+
+}
  
 }
 /*md device*/
