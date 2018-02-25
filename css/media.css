@@ -1,14 +1,11 @@
 
+
 /*sm device*/
 @media(max-width:567px){
- .social_media{
-        float: none;
-        text-align: center;
-        margin: 10px auto;
-        
-        display:block;
-    }
-
+ 
+   .s_btn{
+      width:100%;
+	  }
 }
 
 
@@ -28,6 +25,13 @@
         margin: 0 ;
        
         
+    }
+	.social_media{
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+        
+        display:block;
     }
     .logo img{
         float: none;
@@ -152,21 +156,27 @@
 
 float:left;
 
-}   
+} 
+.navbar-right{
+position:relative;
+
+
+}  
 }
 /*sm device*/
 @media(max-width:991px){
-.navbar-right{
 
-
-top: 0;
-
-
+ .writ_btn{
+    margin: 30px 20px 10px 0;
+	font-size:14px;
+   
 }
- 
+.navbar-right{
+  top:0;
+}
 }
 /*md device*/
-@media(min-width:992px) and (max-width:1199px){
+@media (max-width:1199px){
    
 }
 /*lg device*/
