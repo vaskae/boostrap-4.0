@@ -1,0 +1,464 @@
+.sticky-top{
+position: sticky!important; position:-wedkit-sticky!important; z-index:1030; top:0;
+
+}
+.header-hol{
+     padding: 20px 0;
+     margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.logo {
+    
+   float: left;
+}
+
+
+.logo img{
+    
+   float: left;
+}
+
+.logo span{
+    margin-top: 20px;
+	padding-left:5px;
+   float: left;
+}
+.social_media{
+    margin-top: 30px;
+   float: right;
+  
+   overflow:hidden;
+   width:100px;
+   
+    
+}
+.social_media ul li{
+   float:left;
+   margin:0 5px;
+}
+.social_media [class*="fa fa-"],.all_links [class*="fa fa-"]  {
+    
+    border-radius: 30px;
+    color: #fff;
+    display:block;
+    height: 20px;
+    line-height: 20px;
+    margin: 3px 0;
+    width: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.img-responsive{
+    width: 100% !important;
+}
+
+
+.active{
+   background-color:#EEEEEE;
+   
+}
+
+
+
+.menu_bar{background:#67C0AC; min-height:42px; padding-top:0; padding-bottom:0;}
+.menu_bar ul li a {
+   color: black !important;
+   padding-left:5px!important;
+	font-weight:600;
+}
+	
+.menu_bar ul li a:hover {
+background:white;
+	font-weight:600;
+}
+.navbar-right{
+
+
+right:1%;
+position:absolute;
+
+}
+.navbar-brand{
+   display:none;
+   } 
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+   
+}
+.s_img_text{
+   position: absolute;
+    color: white;
+   
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.s_img_text h2{
+   font-size: 20px; 
+    
+}
+
+
+.s_img_text p{
+   font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+.item_po img{
+    
+    position: relative;
+     min-height: 200px;
+    max-width: inherit;
+}
+.account_btn{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+   margin-top: 2%;
+}
+.slider_margin{
+margin-top:30px;
+}
+
+.carousel-indicators li{
+height:10px;
+width:10px;
+border-radius:50%;
+
+}
+
+
+/* featured_description start */
+
+
+.featured-hol {
+    margin: 0 auto;
+    width: 60%;
+    clear: both;
+    margin-top: 30px;
+}
+
+.title h1{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.book_content{
+    font-size: 12px;
+}
+.feature_add h2{
+    
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.feature_add p{
+    
+    font-size: 12px;
+    
+}
+
+.book_content span a{
+    
+    color: #68BFAE;
+    
+}
+.write_about{
+    background: #EAEAEA;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+
+.writ_btn{
+    margin-top: 20px;
+    background: #68BFAE;
+    padding: 5px 20px;
+}
+
+.most_traded-hol{
+     margin: 0 auto;
+    width: 60%;
+    clear: both;
+    margin-top: 30px;
+}
+
+.pic_hol{
+    
+    padding: 0 5%;
+    
+}
+
+
+.plot_image img{
+    z-index: 99;
+    width: 100%;
+	margin-top:0px;
+}
+.plot_image_slider{
+    z-index: 99;
+    width: 100%;
+	margin-top:-25px;
+}
+.sn_img_couser{
+    
+    cursor: pointer;
+}
+
+.most_re_bg{
+    
+    background:url(../images/slider_bg.png) repeat-x;
+    padding: 50px 0;
+}
+
+.most_read_hol{
+    padding: 55px 0;
+    margin: 0 auto;
+    width: 60%;
+    clear: both;
+    margin-top: 30px;
+    
+}
+
+.btn-foot{
+   
+    background: #68BFAE;
+    border-radius: 0;
+    border: none;
+    font-size: 18px;
+    display: inline;
+   
+        
+    
+}
+.footer_top_holl{
+    background: #272729;
+    margin-top: 40px;
+    padding: 2% 10%;
+    
+}
+
+.footer_top_holl .title{
+    
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+.about_us .description{
+    color: white;
+    font-size: 12px;
+    
+}
+
+.all_links ul{
+    padding-left: 0px;
+    list-style: none;
+    
+}
+
+.s_margin{
+
+
+float:left;
+
+}
+.all_links ul li a{
+    
+   color: #68BFAE;
+    font-size: 12px;
+}
+
+ .b_arrow ul li a{
+    color: #68BFAE;
+    font-size: 30px!important;
+	text-decoration:none !important;
+	border:2px solid;
+	border-radius:50%;
+	padding:0 10px 10px 10px;
+}
+.b_arrow ul li a:hover{
+color:#0099CC;
+}
+.footer_bottom_holl{
+    
+    background: #1F1F21;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/*--JQURY Slider Start------*/
+
+
+#exampleSlider {
+  position: relative;
+  width:80%;
+  margin:0 auto;
+}
+@media (max-width: 767px) {
+  #exampleSlider {
+    border-color: transparent;
+  }
+}
+#exampleSlider .MS-content {
+  margin: 25px 20%;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left:1.5%;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+ 
+  border-right: none;
+  width: 20%;
+}
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 25%;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+#exampleSlider .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider .MS-controls button {
+  position: absolute;
+  line-height:30px;
+  background: transparent;
+  border:2px solid white;
+  border-radius:50%;
+  font-size: 30px;
+  height:50px;
+  width:50px;
+  outline: 0;
+  top: 50px;
+    color: white;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+    
+    #exampleSlider .MS-content {
+  margin: 15px 25%;
+  
+  white-space: nowrap;
+ 
+  padding-left:13%;
+    width: 80%;
+}
+     
+}
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px; 
+      
+  }
+    
+    
+    #exampleSlider .MS-content {
+  margin: 25px 25%;
+  overflow: hidden;
+  white-space: nowrap;
+  
+  padding-left:3%;
+    width: 60%;
+}
+    
+}
+
+
+
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px; 
+      
+  }
+    
+    
+    #exampleSlider .MS-content {
+  margin: 15px auto;
+  
+  
+  
+  padding-left:20%;
+    width: 100%;
+}
+  
+ #exampleSlider {
+  position: relative;
+  
+  width:70%;
+
+     
+ 
+}   
+    
+    
+}
+
+
+@media (max-width: 450px) {
+    
+   #exampleSlider .MS-content {
+  margin: 15px auto;
+  
+  
+ 
+  padding-left:5%;
+    width: 100%;
+}  
+}
+
+
+/*--JQURY Slider Start------*/
